@@ -1,0 +1,144 @@
+body {
+  background-color: rgb(222, 238, 238);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+
+a:hover {
+  color: #535bf2;
+}
+
+.box {
+  border: 2px solid black;
+  width: 40rem;
+
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.box ul {
+  /* border: 2px dotted rgb(21, 21, 21); */
+  width: 90%;
+
+
+}
+
+.box ul li {
+  display: flex;
+  flex-direction: column;
+
+
+}
+
+.box div {
+  display: flex;
+  /* margin-top: 20px; */
+  align-items: center;
+
+
+
+
+}
+
+.add {
+  display: flex;
+  width: 70%;
+  justify-content: center;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.add button {
+  background-color: hsl(213, 63%, 40%);
+  outline: none;
+  border: none;
+  cursor: pointer;
+  width: 90px;
+  font-size: 23px;
+  padding: 0 20px;
+
+}
+
+.box div .todo {
+  border-radius: 8px;
+  border: 1px solid #c4fff8;
+  width: 500px;
+  height: 35px;
+  margin: 5px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 10px;
+  background-color: hsl(213, 62%, 62%);
+
+}
+
+.inputAdd {
+  outline: none;
+  border: 1px solid hsl(213, 62%, 62%);
+  width: 450px;
+  height: 25px;
+  border-radius: 5px;
+  padding: 5px;
+  margin-right: 10px;
+  padding-left: 10px;
+
+
+}
+
+.box div li button {
+  background-color: #b5533f;
+  outline: none;
+  border: none;
+  cursor: pointer;
+
+}
+
+.box label {
+  margin: 0 15px;
+}
+
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+.box h3 {
+  background-color: #f40808a3;
+  border-radius: 5px;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid rgb(174, 155, 235);
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  color: antiquewhite;
+  font-weight: 500;
+
+  background-color: #3f01fa;
+  cursor: pointer;
+
+  height: 30px;
+  line-height: 15px;
+
+}
+
+button:hover {
+  border-color: #646cff;
+}
+
+.done {
+
+  text-decoration: line-through;
+}
